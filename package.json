@@ -2,16 +2,13 @@
   "name": "onn",
   "version": "0.0.0-dev",
   "license": "MIT",
-  "description": "",
+  "description": "Event emitter using DOM's addEventListener/dispatchEvent",
   "main": "index.js",
   "typings": "index.d.ts",
   "author": "2019",
   "keywords": [],
   "engines": {
     "node": ">=6"
-  },
-  "repository": {
-    "type": "git"
   },
   "scripts": {
     "test": "npm run eslint && npm run tscheck && npm run test:cov && npm run typecov",
@@ -60,13 +57,8 @@
     "eslint-plugin-wix-editor": "^2.0.0",
     "jest": "^24.8.0",
     "ng-packagr": "^5.3.0",
-    "remark": "^10.0.1",
-    "remark-cli": "^6.0.1",
-    "remark-license": "^5.1.0",
-    "remark-toc": "^5.1.1",
     "semantic-release": "^16.0.0-beta.19",
     "simplytyped": "^3.2.0",
-    "stryker-cli": "^1.0.0",
     "ts-jest": "^24.0.2",
     "tsickle": "^0.35.0",
     "tslint": "^5.18.0",
@@ -81,5 +73,14 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlight/onn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unlight/onn/issues"
+  },
+  "homepage": "https://github.com/unlight/onn#readme"
 }
