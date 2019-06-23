@@ -33,6 +33,7 @@ module.exports = {
     "rules": {
         "quotes": [1, "single", { "allowTemplateLiterals": true }],
         "semi": [1, "always"],
+        "no-undef": 0,
         // wix-editor
         "wix-editor/augmented-assignment": 1,
         "wix-editor/no-instanceof-array": 1,
