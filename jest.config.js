@@ -15,7 +15,6 @@ module.exports = {
     ],
     "testMatch": [
         "<rootDir>/src/**/*.spec.ts",
-        "<rootDir>/src/example.ts",
     ],
     "moduleFileExtensions": [
         "ts",
