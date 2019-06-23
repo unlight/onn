@@ -22,3 +22,11 @@ it('unsubscribe', () => {
     document.dispatchEvent(new Event('click'));
     expect(onclick).toHaveBeenCalledTimes(1);
 });
+
+it('once', () => {
+    const onclick = jest.fn();
+    on(document, 'click', onclick, { once: true });
+    document.dispatchEvent(new Event('click'));
+    document.dispatchEvent(new Event('click'));
+    expect(onclick).toHaveBeenCalledTimes(1);
+});
